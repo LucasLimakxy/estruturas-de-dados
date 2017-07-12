@@ -34,7 +34,7 @@ public class Quicksort {
         quickSort(vetor, 0, vetor.length - 1);
         //Imprimindo o vetor já ordenado
         for (int i = 0; i < vetor.length; i++) {
-                System.out.print("|" + vetor[i]);
+            System.out.print("|" + vetor[i]);
         }
     }    
 }
